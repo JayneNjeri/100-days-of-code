@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '100_days_of_code/day_1.dart';
+//import '100_days_of_code/day_1.dart';
 
 void main() {
   runApp(const MyApp());
