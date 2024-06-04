@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import '100_days_of_code/day_2.dart';
+
 //import '100_days_of_code/day_1.dart';
 
 void main() {
@@ -11,10 +13,10 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       debugShowCheckedModeBanner: false,
       //linking the Day1 class to the app
-      //  home: const Day1(),
+      home: Day2(),
     );
   }
 }
